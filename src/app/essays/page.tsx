@@ -1,56 +1,13 @@
 import { Metadata } from "next";
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 export const metadata: Metadata = {
   title: "Essai",
   description: "Halaman essai",
   openGraph: {
-    title: "Essai", 
+    title: "Essai",
     description: "Halaman essai",
   },
 };
-
-const posts = [
-  {
-    id: 1,
-    title: 'Belajar Next.js dari Nol',
-    href: '#',
-    description: 'Panduan lengkap untuk memulai dengan Next.js, framework React yang powerful untuk membangun aplikasi web modern dengan performa tinggi dan SEO yang baik.',
-    imageUrl: '/images/project2.jpg',
-    date: 'Mar 16, 2024',
-    datetime: '2024-03-16',
-    author: {
-      name: 'Annisa Rahmania',
-      imageUrl: '/images/project2.jpg',
-    },
-  },
-  {
-    id: 2,
-    title: 'Laravel 12 Apa yang baru ya?',
-    href: '#',
-    description: 'Mengulas fitur-fitur terbaru dari Laravel 12, termasuk peningkatan performa, fitur keamanan baru, dan tools development yang lebih powerful untuk pengembangan aplikasi PHP modern.',
-    imageUrl: '/images/project2.jpg',
-    date: 'Mar 15, 2024',
-    datetime: '2024-03-15',
-    author: {
-      name: 'Annisa Rahmania',
-      imageUrl: '/images/project2.jpg',
-    },
-  },
-  {
-    id: 3,
-    title: 'Jago Tailwind dalam semalam',
-    href: '#',
-    description: 'Tips dan trik untuk menguasai Tailwind CSS dengan cepat, dari konsep dasar hingga teknik advanced untuk membuat desain web yang responsif dan modern.',
-    imageUrl: '/images/project2.jpg',
-    date: 'Mar 14, 2024',
-    datetime: '2024-03-14',
-    author: {
-      name: 'Annisa Rahmania',
-      imageUrl: '/images/project2.jpg',
-    },
-  },
-];
 
 export default function Essays() {
   return (
@@ -76,3 +33,4 @@ export default function Essays() {
     </div>
   );
 }
+
